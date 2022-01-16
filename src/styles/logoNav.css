@@ -1,0 +1,76 @@
+.logo-menu {
+    max-width: 1300px;
+    margin: 0 auto
+}
+
+.main-nav {
+    width: calc(50% - 150px);
+}
+
+.main-logo {
+    width: 300px;
+    text-align: center;
+}
+
+.detailed-nav {
+    display: flex;
+    width: calc(50% - 150px);
+    justify-content: flex-end;
+}
+
+/* Main Nav */
+
+.main-nav__list {
+    display: flex;
+}
+
+.main-nav__item {
+    padding: 10px;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+}
+
+.main-nav__link {
+    display: block;
+    position: relative;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.slow-underline {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    display: inline-block;
+    width: 0;
+    height: 1px;
+    background: #000;
+    transition: .3s width;
+}
+
+.main-nav__link:hover > .slow-underline {
+    width: calc(100% - 20px);
+    transition: .3s width;
+}
+
+/* Main Nav, конец */
+
+/* Logo */
+
+.site-logo {
+    display: block;
+    padding: 10px 0;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* Logo, конец */

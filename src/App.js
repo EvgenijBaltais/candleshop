@@ -1,6 +1,24 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import TopStripe from './components/TopStripe'
+import LogoNav from './components/LogoNav'
+import Slider from './components/Slider'
 
+function App() {
+  return (
+    <div className="App">
+
+      <TopStripe />
+      <LogoNav />
+      <Slider />
+    </div>
+  );
+}
+
+export default App;
+
+
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +38,4 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+}*/
