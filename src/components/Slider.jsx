@@ -12,11 +12,17 @@ const Slider = () => {
     return (
 
         <div className = "main-slider">
-            <img src={slider_pic_1} className="slider-pic" alt="Свечи ручной работы" />
-            <img src={slider_pic_2} className="slider-pic" alt="Мыло ручной работы" />
+            <div className="left-arrow"></div>
+            <div className="right-arrow"></div>
+            <div className="slider-pic"></div>
+            <div className="slider-pic"></div>
         </div>
- 
     )
 }
 
 export default Slider
+
+/*
+<img src={slider_pic_1} className="slider-pic" alt="Свечи ручной работы" />
+<img src={slider_pic_2} className="slider-pic" alt="Мыло ручной работы" />
+*/
