@@ -6,8 +6,8 @@ import slider_pic_2 from '../images/2.jpg'
 
 const Slider = () => {
 
-    const slides = [1, 2, 3]
-    const time = 2000
+    const slides = [1,2,3,4,5]
+    const time = 3000
     const [activeIndex, setActiveIndex] = useState(0)
 
     useEffect(() => {
@@ -29,8 +29,8 @@ const Slider = () => {
             <div className = "slider-pics">
 
                 {
-                    slides.map(number => 
-                        <div className = 'slider-pic' key = {number}></div>
+                    slides.map((item, index) => 
+                        <div className = {[index == activeIndex ? 'slider-pic active-slide' : 'slider-pic']} key = {index}></div>
                     )
                 }
 
