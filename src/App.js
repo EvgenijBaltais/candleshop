@@ -3,6 +3,7 @@ import './App.css';
 import TopStripe from './components/TopStripe'
 import LogoNav from './components/LogoNav'
 import Slider from './components/Slider'
+import ProductsSection from './components/ProductsSection'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TopStripe />
       <LogoNav />
       <Slider />
+      <ProductsSection />
     </div>
   );
 }

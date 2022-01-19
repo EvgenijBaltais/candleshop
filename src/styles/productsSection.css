@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.products-item {
+    width: calc((100% - 90px) / 4);
+    height: 300px;
+    margin-right: 30px;
+    outline: 1px solid red;
+}
+
+.products-item:nth-child(4n) {
+    margin-right: 0
+}
+
+.products-pic {
+    background: rgb(250,245,242);
+}
